@@ -1,0 +1,91 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Night Owl",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g"
+            ],
+            "commands": [
+                "workbench.view.scm"
+            ]
+        },
+        {
+            "before": [
+                "K",
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        }
+    ],
+    "vim.leader": "<space>"
+}
