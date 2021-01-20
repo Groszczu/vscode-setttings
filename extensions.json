@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"coenraads.bracket-pair-colarizer-2"
+		"dbaeumer.vscode-eslint"
+		"eamodio.gitlens"
+		"jakebecker.elixir-ls",
+		"mgmcdermott.vscode-language-babel",
+		"ms-azuretools.vscode-docker",
+		"pkief.material-icon-theme",
+		"sdras.night-owl",
+		"vscodevim.vim",
+
+	]
+}
