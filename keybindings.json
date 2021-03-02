@@ -43,26 +43,26 @@
     {
         "key": "j",
         "command": "list.focusDown",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "k",
         "command": "list.focusUp",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "l",
         "command": "list.expand",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "h",
         "command": "list.collapse",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "enter",
         "command": "list.select",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     }
 ]
